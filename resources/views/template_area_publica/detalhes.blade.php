@@ -9,6 +9,9 @@
     <style>
         :root { --primary-color:#853362; --text-color:#333; }
         body { font-family:'Poppins',sans-serif; background:#fff; }
+        header{
+          background-color: #853362;
+        }
         .logo-text { font-size:24px; font-weight:700; color:var(--primary-color)!important; text-transform:uppercase; }
         .btn-primary-custom { background:var(--primary-color); border-color:var(--primary-color); }
         .btn-primary-custom:hover { background:#6a2a50; border-color:#6a2a50; }
@@ -17,6 +20,17 @@
         .image-gallery img:hover { transform:scale(1.02); }
         .specs-item { border-bottom:1px solid #eee; padding:10px 0; }
         .specs-item:last-child { border-bottom:none; }
+        .site-branding {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+        .btn-back-vitrine{
+          position: absolute;
+          right: 10vw;
+        }
     </style>
 </head>
 <body>
@@ -24,11 +38,11 @@
 <header id="header-wrap" class="py-3 border-bottom">
   <div class="container d-flex align-items-center justify-content-between">
     <div class="site-branding">
-      <a class="logo-text" href="{{ route('public.index') }}">Veículos Ana's</a>
+      <a class="logo-text" href="{{ route('public.index') }}"><img src="{{ asset('images/veiculos-ana.jpeg') }}" class="logo-img" alt="Veículos Ana's"></a>
+      <a href="{{ route('public.index') }}" class="btn-back-vitrine btn btn-outline-primary">
+        <i class="fas fa-arrow-left me-2"></i>Voltar para Vitrine
+      </a>
     </div>
-    <a href="{{ route('public.index') }}" class="btn btn-outline-primary">
-      <i class="fas fa-arrow-left me-2"></i>Voltar para Vitrine
-    </a>
   </div>
 </header>
 
