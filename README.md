@@ -6,7 +6,6 @@ Este projeto oferece uma plataforma moderna, responsiva e animada para exibiçã
 ---
 
 ## ✨ **Funcionalidades**
-
 ### 🔹 Área Pública
 - Página inicial com banner e chamada para ação  
 - Listagem completa de veículos  
@@ -17,6 +16,9 @@ Este projeto oferece uma plataforma moderna, responsiva e animada para exibiçã
 - Animações suaves (fade, hover, zoom, slide)  
 
 ### 🔹 Área Administrativa
+## Usuario: admin@admin.com
+## Senha: 123456
+
 - Login seguro para administradores  
 - Dashboard completo  
 - Gerenciamento de:
@@ -31,22 +33,24 @@ Este projeto oferece uma plataforma moderna, responsiva e animada para exibiçã
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Laravel 10+ 
-- PHP 8+ 
-- MySQL 
-- Blade Templates
-- Bootstrap 5*
-- CSS3 + Animações
-- Font Awesome 
+- Laravel 10+
+- PHP 8+
+- MySQL
+- Blade Templates 
+- Bootstrap 5
+- CSS3 + Animações  
+- Font Awesome
 - JavaScript
 - Git/GitHub
 
+### Prints do Site funcionando
+Link do GitHub: https://github.com/Ana807213/Veiculos-Ana-s/tree/main/public/images
 ---
 
 ## 🚀 Instalação
 
 ### 1️⃣ Clone o projeto
-bash
+```bash
 git clone https://github.com/Ana807213/Veiculos-Ana-s.git
 
 2️⃣ Instale as dependências
@@ -75,6 +79,8 @@ php artisan serve
 
 Acesse:
 👉 http://localhost:8000
+
+📸 Screenshots
 🖼️ Banner Inicial
 🖼️ Página Pública (Home)
 🖼️ Página Pública – Lista de Veículos
@@ -92,8 +98,8 @@ Acesse:
 📌 Dashboard de Cores
 ➕ Cadastro de Cor
 
-🙋‍♀️ Autora
+###🙋‍♀️ Autoras
 Ana Laura e Ana Paula 
-Projeto criado para estudo e uso real em loja de veículos.
+Projeto criado para estudo e avaliação do nosso Professor de Linguagem de Programação WEB 
 
 GitHub: https://github.com/Ana807213
